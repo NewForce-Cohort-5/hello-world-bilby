@@ -1,0 +1,89 @@
+.bilby-pic{
+    display: flex;
+    justify-content: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5.5px;
+}
+
+.navbar li a:hover {
+    background-color: white;
+    text-decoration:underline;
+}
+
+.active {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font: brown;
+}
+
+.country-picture{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5;
+}
+
+.Headline{
+    background-color: lawngreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid black
+}
+
+.cities{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
+
+.Landmarks {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
+
+.famous{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
+
+.CLF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxheadings{
+    text-align: center
+}
+
+footer {
+    text-align: right;
+}
