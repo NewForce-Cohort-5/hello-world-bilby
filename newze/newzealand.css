@@ -68,13 +68,14 @@ body {
 .country-picture {
     display: flex;
     justify-content: center;
+   
 }
 
 .headline {
     display: flex;
     justify-content: center;
-    border: 1px black solid
-
+    border: 1px black solid;
+    background-color: chartreuse;
 }
 
 .foot {
