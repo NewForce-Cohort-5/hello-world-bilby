@@ -1,0 +1,44 @@
+body {
+    background-color: red;
+    color: blue
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.cities {
+    
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: auto;
+    
+}
+
+.Landmarks {
+    
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: auto;
+}
+
+.famous {
+ 
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em; 
+    height: auto;
+    width: auto;
+}
+
+.CLF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
