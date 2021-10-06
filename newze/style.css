@@ -1,6 +1,7 @@
 body {
     background-color: red;
-    color: brown
+    color: blue
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -9,7 +10,7 @@ body {
 
 .cities {
     
-    border:  solid black;
+    border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
     height: auto;
@@ -19,7 +20,7 @@ body {
 
 .Landmarks {
     
-    border:  solid black;
+    border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
     height: auto;
@@ -28,7 +29,7 @@ body {
 
 .famous {
  
-    border:  solid black;
+    border: 1px solid black;
     margin: 1em;
     padding: 0.5em; 
     height: auto;
@@ -51,7 +52,7 @@ body {
     flex-direction: row;
     align-items: center;
     list-style: none;
-    border:  solid black;
+    border: 1px solid black;
     padding: 5px;
 }
  
@@ -74,6 +75,12 @@ body {
 .heading {
     display: flex;
     justify-content: center;
-    border: black solid
+    border: 1px black solid
 
+}
+
+.foot {
+    display:flex;
+    justify-content: center;
+    border: solid black 1px;
 }
