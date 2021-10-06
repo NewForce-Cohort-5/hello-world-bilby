@@ -77,3 +77,15 @@ footer {
     flex-direction: row;
     justify-content: center ;
 }
+
+.country-name {
+    text-align: center;
+}
+
+.country-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+}
