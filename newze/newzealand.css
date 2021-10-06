@@ -65,12 +65,12 @@ body {
     text-decoration: none;
 }
 
-.pic {
+.country-picture {
     display: flex;
     justify-content: center;
 }
 
-.heading {
+.headline {
     display: flex;
     justify-content: center;
     border: 1px black solid
