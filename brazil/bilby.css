@@ -50,7 +50,39 @@ body {
     border: 1px solid black
 }
 
+.cities{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
 
+.Landmarks {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
+
+.famous{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: 33%;
+}
+
+.CLF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxheadings{
+    text-align: center
+}
 
 footer {
     text-align: right;
