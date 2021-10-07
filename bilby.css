@@ -6,6 +6,11 @@
 
 .logo {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 170px;
+    width: auto;
 }
 
 .navbar {
@@ -38,4 +43,49 @@
 
 footer {
     text-align: right;
+}
+
+.cities {
+    
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: auto;
+}
+
+.Landmarks {
+    
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: auto;
+}
+
+.famous {
+ 
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    height: auto;
+    width: auto;
+}
+
+.CLF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.country-name {
+    text-align: center;
+}
+
+.country-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
 }
