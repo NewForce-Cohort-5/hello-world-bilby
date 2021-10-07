@@ -55,8 +55,9 @@ body {
     padding: 5px;
 }
  
-.navbar li a {
-    text-decoration: none;
+.navbar li a:hover {
+    background-color: pink;
+    text-decoration:underline;
 }
  
 .active {
@@ -73,7 +74,7 @@ body {
 
 .headline {
     display: flex;
-    justify-content: center;
+
     border: 1px black solid;
     background-color: chartreuse;
 }
