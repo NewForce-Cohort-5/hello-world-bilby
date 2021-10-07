@@ -1,16 +1,6 @@
-* {
-    background: red;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-.logo {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 170px;
-    width: auto;
+.bilby-pic{
+    display: flex;
+    justify-content: left;
 }
 
 .navbar {
@@ -41,51 +31,59 @@
     text-decoration: none;
 }
 
-footer {
-    text-align: right;
+body {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font: brown;
 }
 
-.cities {
-    
+.country-picture{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5;
+}
+
+.Headline{
+    background-color: lawngreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid black
+}
+
+.cities{
     border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
     height: auto;
-    width: auto;
+    width: 33%;
 }
 
 .Landmarks {
-    
     border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
     height: auto;
-    width: auto;
+    width: 33%;
 }
 
-.famous {
- 
+.famous{
     border: 1px solid black;
     margin: 1em;
     padding: 0.5em;
     height: auto;
-    width: auto;
+    width: 33%;
 }
 
 .CLF {
     display: flex;
     flex-direction: row;
-    justify-content: center ;
+    justify-content: center;
 }
 
-.country-name {
-    text-align: center;
+.boxheadings{
+    text-align: center
 }
 
-.country-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: auto;
+footer {
+    text-align: right;
 }
