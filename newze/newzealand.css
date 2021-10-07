@@ -85,7 +85,7 @@ body {
 }
 
 a:hover {
-    background-color: chartreuse;
+    background-color: rgb(38, 228, 202);
   }
 
   .country-name {
