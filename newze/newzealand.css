@@ -87,3 +87,8 @@ body {
 a:hover {
     background-color: chartreuse;
   }
+
+  .country-name {
+      display: flex;
+      justify-content: center;
+  }
